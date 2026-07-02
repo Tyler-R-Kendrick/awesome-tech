@@ -1,6 +1,8 @@
 # Agent Tracing
 
-## Table of Contents
+A curated index of observability standards and tools for tracing agent execution.
 
-- OpenInference
-- OTEL Gen AI standards
+## Contents
+
+- OpenInference - Observability standard for capturing AI and agent execution traces.
+- OTEL Gen AI standards - OpenTelemetry conventions and standards for generative AI telemetry.

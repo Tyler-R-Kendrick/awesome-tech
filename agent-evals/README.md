@@ -1,6 +1,8 @@
 # Agent Evals
 
-## Table of Contents
+A curated index of tools and frameworks for evaluating agent behavior, quality, and governance.
 
-- agentevals.io: AgentV (cli and sdk)
-- ASSERT (Microsoft agent-governance-toolkit)
+## Contents
+
+- agentevals.io: AgentV - CLI and SDK for evaluating agent behavior.
+- ASSERT - Microsoft agent-governance-toolkit resource for agent evaluation and governance checks.
