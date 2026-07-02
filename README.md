@@ -1,2 +1,13 @@
 # awesome-tech
-A collection of technology that I want to follow and consider for future development.
+
+## Table of Contents
+
+- [Repository Standards](./standards/README.md)
+- [LlamaParse Cloud Index v2 Setup](./llama-parse/README.md)
+- [Agent Harness](./agent-harness/README.md)
+- [Agent Isolation](./agent-isolation/README.md)
+- [Agent Evals](./agent-evals/README.md)
+- [Agent Tracing](./agent-tracing/README.md)
+- [Agent Optimization](./agent-optimization/README.md)
+- [Agent Skill Optimizations](./agent-skill-optimizations/README.md)
+- [Prompt Engineering](./prompt-engineering/README.md)
