@@ -5,6 +5,7 @@ Curated knowledge index for agentic AI tooling, practices, and infrastructure. E
 ## Contents
 
 - [Agents](./agents/README.md) - Agent capabilities: harnesses, sandboxes, optimization, skills, memory, tracing, and evals.
+- [Agentic Web](./agentic-web/README.md) - Making existing websites queryable and operable by agents (NLWeb, PageAgent).
 - [Prompt Engineering](./prompt-engineering/README.md) - Prompt programming, RAG, context engineering, and token optimization.
 - [Generative UI (GenUI)](./genUI/README.md) - Frameworks and specs for agent- and model-generated interfaces.
 - [Documentation](./documentation/README.md) - Tooling and formats for agent- and LLM-facing documentation, knowledge, and design context.

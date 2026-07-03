@@ -48,6 +48,7 @@ When contributing a new document, resource list, or category:
 | --- | --- |
 | [Documentation Index](./docs/README.md) | Top-level index linking every category. |
 | [Agents](./docs/agents/README.md) | Harnesses, sandboxes, optimization, skills, memory, tracing, and evals. |
+| [Agentic Web](./docs/agentic-web/README.md) | Making existing websites queryable and operable by agents (NLWeb, PageAgent). |
 | [Prompt Engineering](./docs/prompt-engineering/README.md) | Prompt programming, RAG, context engineering, and token optimization. |
 | [Generative UI (GenUI)](./docs/genUI/README.md) | Frameworks and specs for agent- and model-generated interfaces. |
 | [Documentation](./docs/documentation/README.md) | Tooling and formats for agent- and LLM-facing documentation, knowledge, and design context. |
@@ -76,6 +77,7 @@ awesome-tech/
     │   ├── memory/
     │   ├── tracing/
     │   └── evals/
+    ├── agentic-web/                       # Agentic web: NLWeb, PageAgent
     ├── prompt-engineering/                # Prompt programming and related subtopics
     │   ├── rag/                           # Retrieval-augmented generation
     │   │   └── llama-parse/               # Required ingestion/indexing setup
