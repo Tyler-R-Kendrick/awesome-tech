@@ -4,8 +4,8 @@ The agentic web is the layer that makes existing websites first-class participan
 
 ## Contents
 
-- [NLWeb](./nlweb.md) - Microsoft's open project for conversational, natural-language interfaces to a site's content; every instance is also an MCP server.
-- [PageAgent](./page-agent.md) - Alibaba's in-page JavaScript GUI agent that controls a site's own interface through natural language via the DOM.
+- [NLWeb](./nlweb.md) - Content access, server-side: Microsoft's open project for conversational, natural-language interfaces over a site's content; every instance is also an MCP server.
+- [PageAgent](./page-agent.md) - UI control, client-side (in-page): Alibaba's JavaScript GUI agent that operates a site's own interface through natural language via the DOM.
 
 ## Two directions
 
