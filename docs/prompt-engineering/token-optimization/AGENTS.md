@@ -12,7 +12,7 @@ Maintain this folder as the awesome-index scope for token and context reduction:
 
 - Identify what is reduced: prompt size, context window usage, output length, or overall token cost.
 - Prefer entries with reproducible methods, papers, benchmarks, or working code.
-- Keep broader optimization work (cost, latency, trajectory quality) in `agent-optimization` unless it is specifically about token or context reduction.
+- Keep broader optimization work (cost, latency, trajectory quality) in `docs/agents/optimization` unless it is specifically about token or context reduction.
 
 ## Required structure
 

@@ -12,7 +12,7 @@ Maintain this folder as the awesome-index scope for optimization frameworks, tra
 
 - Identify what is optimized: cost, latency, reliability, trajectory quality, or task success.
 - Prefer entries with reproducible methods, papers, code, or clear methodology.
-- Keep tracing-only resources in `agent-tracing` unless they directly support optimization workflows.
+- Keep tracing-only resources in `docs/agents/tracing` unless they directly support optimization workflows.
 
 ## Required structure
 

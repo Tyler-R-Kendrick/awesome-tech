@@ -12,7 +12,7 @@ Maintain this folder as the awesome-index scope for prompt programming, structur
 
 - Prioritize resources that make prompts more reliable, testable, or constrained.
 - Describe whether a resource is a framework, library, compiler, optimizer, or technique.
-- Keep agent-skill-specific optimization content in `agent-skill-optimizations` when it is not broadly prompt-engineering focused.
+- Keep agent-skill-specific optimization content in `docs/agents/skills` when it is not broadly prompt-engineering focused.
 
 ## Required structure
 

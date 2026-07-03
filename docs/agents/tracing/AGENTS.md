@@ -12,7 +12,7 @@ Maintain this folder as the awesome-index scope for observability, spans, teleme
 
 - Prefer standards and instrumentation that make agent behavior observable and comparable.
 - Note interoperability standards such as OpenTelemetry when relevant.
-- Keep optimization frameworks in `agent-optimization` unless the resource is primarily about tracing.
+- Keep optimization frameworks in `docs/agents/optimization` unless the resource is primarily about tracing.
 
 ## Required structure
 
