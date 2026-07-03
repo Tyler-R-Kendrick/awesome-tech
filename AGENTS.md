@@ -38,6 +38,7 @@ Before committing documentation changes:
 3. Confirm category README files link back to relevant repo standards when useful and do not contradict `docs/standards/README.md`.
 4. Run `git diff --check` to catch whitespace issues.
 5. Use `rg "^## Table of Contents"` to ensure old awesome-list heading style was not reintroduced.
+6. Run `bun run konsistent` to confirm every `docs/` folder still provides its `README.md` index and `AGENTS.md`; the same check runs in CI on every pull request.
 
 ## Writing style
 

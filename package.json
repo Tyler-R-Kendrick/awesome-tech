@@ -1,0 +1,17 @@
+{
+  "name": "awesome-tech",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Curated knowledge index for agentic AI tooling, practices, and infrastructure.",
+  "packageManager": "bun@1.3.11",
+  "engines": {
+    "node": ">=22.11.0"
+  },
+  "scripts": {
+    "konsistent": "konsistent",
+    "lint": "konsistent check"
+  },
+  "devDependencies": {
+    "konsistent": "^1.0.0-beta.1"
+  }
+}

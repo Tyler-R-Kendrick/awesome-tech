@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/konsistent/konsistent.schema.json",
+  "version": "v1",
+  "conventions": [
+    {
+      "name": "doc-folders-have-index-and-agents",
+      "description": "Every folder in the docs/ knowledge tree is an index folder and must contain a README.md category index plus an AGENTS.md with folder-scoped standards. Placeholders match single, extension-less path segments, so only directories are selected and the README.md/AGENTS.md files themselves are skipped. Folder depths are enumerated explicitly because the '**' glob does not reliably match directories in konsistent.",
+      "paths": [
+        "{docsRoot:matches(^docs$)}",
+        "docs/{category}",
+        "docs/{category}/{subcategory}",
+        "docs/{category}/{subcategory}/{leaf}"
+      ],
+      "must": {
+        "haveType": "directory",
+        "haveFiles": ["README.md", "AGENTS.md"]
+      }
+    }
+  ]
+}
