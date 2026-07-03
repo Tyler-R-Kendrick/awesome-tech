@@ -50,7 +50,8 @@ When contributing a new document, resource list, or category:
 | [Agents](./docs/agents/README.md) | Harnesses, sandboxes, optimization, skills, memory, tracing, and evals. |
 | [Prompt Engineering](./docs/prompt-engineering/README.md) | Prompt programming, RAG, context engineering, and token optimization. |
 | [Generative UI (GenUI)](./docs/genUI/README.md) | Frameworks and specs for agent- and model-generated interfaces. |
-| [Standards](./docs/standards/README.md) | Documentation standards and tracked interoperability protocols (MCP, ACP, A2A, x402). |
+| [Documentation](./docs/documentation/README.md) | Tooling and formats for agent- and LLM-facing documentation, knowledge, and design context. |
+| [Standards](./docs/standards/README.md) | Documentation standards and tracked interoperability, payment, and commerce protocols (MCP, A2A, ARD, A2H, x402, AP2, UCP). |
 
 ## Repository Map
 
@@ -75,6 +76,7 @@ awesome-tech/
     │   └── token-optimization/
     │       └── models/                    # Model-based prompt compression
     ├── genUI/                             # Generative UI (GenUI)
+    ├── documentation/                     # Agent-facing documentation tooling and knowledge formats
     └── standards/                         # Documentation and interoperability standards
 ```
 
