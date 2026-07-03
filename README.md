@@ -51,6 +51,7 @@ When contributing a new document, resource list, or category:
 | [Prompt Engineering](./docs/prompt-engineering/README.md) | Prompt programming, RAG, context engineering, and token optimization. |
 | [Generative UI (GenUI)](./docs/genUI/README.md) | Frameworks and specs for agent- and model-generated interfaces. |
 | [Documentation](./docs/documentation/README.md) | Tooling and formats for agent- and LLM-facing documentation, knowledge, and design context. |
+| [Code Transformation](./docs/code-transformation/README.md) | Deterministic, recipe-based engines for automated code refactoring and migration. |
 | [Standards](./docs/standards/README.md) | Documentation standards and tracked interoperability, payment, and commerce protocols (MCP, A2A, ARD, A2H, x402, AP2, UCP). |
 
 ## Repository Map
@@ -83,6 +84,7 @@ awesome-tech/
     │       └── models/                    # Model-based prompt compression
     ├── genUI/                             # Generative UI (GenUI)
     ├── documentation/                     # Agent-facing documentation tooling and knowledge formats
+    ├── code-transformation/               # Deterministic code refactoring and migration engines
     └── standards/                         # Documentation and interoperability standards
 ```
 
