@@ -10,4 +10,4 @@ A format specification from Google Labs (open-sourced April 2026, alpha) for des
 
 ## Footnotes
 
-- `DESIGN.md` is an agent-facing file format in the same family as [Agent Skills](../agents/skills/README.md) (`SKILL.md`) and [Open Knowledge Format](./okf.md); the notion of these as a coordinated "instruction layer" is a community interpretation, not a joint standard.
+- `DESIGN.md` is an agent-facing file format in the same family as [AGENTS.md](./agents-md.md), [Agent Skills](../agents/skills/README.md) (`SKILL.md`), and [Open Knowledge Format](./okf.md); the notion of these as a coordinated "instruction layer" is a community interpretation, not a joint standard.

@@ -6,6 +6,7 @@ Tools and file formats for generating, maintaining, and structuring agent- and L
 
 - [OpenWiki](./openwiki.md) - LangChain open-source agent and CLI that generates and maintains repository documentation for agents.
 - [Open Knowledge Format (OKF)](./okf.md) - Google Cloud open specification for portable, agent- and human-friendly knowledge bundles.
+- [AGENTS.md](./agents-md.md) - Open format for the file that gives coding agents project context and instructions.
 - [design.md (DESIGN.md)](./design-md.md) - Google Labs format for describing a design system to coding agents.
 
 ## Related
