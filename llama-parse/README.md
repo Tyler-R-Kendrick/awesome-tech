@@ -1,10 +1,17 @@
 # LlamaParse Cloud Index v2 Setup
 
+Required setup and policy for repository document parsing and indexing through LlamaParse Cloud Index v2.
+
+## Contents
+
+- [Required Setup](#required-setup) - Official setup and usage guide.
+- [Repository Policy](#repository-policy) - Required parsing and indexing constraints.
+
 ## Required Setup
 
 Use this official guide for setup and usage:
 
-- https://developers.llamaindex.ai/llamaparse/cloud-index-v2/getting_started/
+- [LlamaParse Cloud Index v2 getting started](https://developers.llamaindex.ai/llamaparse/cloud-index-v2/getting_started/).
 
 ## Repository Policy
 
