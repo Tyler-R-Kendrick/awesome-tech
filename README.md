@@ -19,7 +19,7 @@ All new and updated documentation must follow the repository standards:
 2. **Open Knowledge format (Google standard)** for discoverable, reusable, and well-scoped knowledge entries.
 3. **LlamaParse Cloud Index v2** for repository ingestion and indexing workflows.
 
-Before adding or changing content, read [`standards/README.md`](./standards/README.md) and [`llama-parse/README.md`](./llama-parse/README.md). Pull requests should explain how the documentation continues to satisfy these standards.
+The root [`AGENTS.md`](./AGENTS.md) captures the repository-wide awesome-index standards, writing style, and enforcement checks, and each category folder has its own `AGENTS.md` with folder-specific guidance. Before adding or changing content, read [`standards/README.md`](./standards/README.md), the relevant folder's `AGENTS.md`, and [`llama-parse/README.md`](./llama-parse/README.md). Pull requests should explain how the documentation continues to satisfy these standards.
 
 ## How to Use This Project
 
@@ -38,6 +38,7 @@ When contributing a new document, resource list, or category:
 - Prefer short, factual entries over long unstructured notes.
 - Link related repository pages with relative links.
 - Make the root README and the relevant category README discover the new content.
+- Follow the folder's `AGENTS.md` for category-specific structure and enforcement.
 - Use LlamaParse Cloud Index v2 for ingestion/indexing work rather than adding a separate parsing path.
 - Document standards compliance in the pull request summary.
 
@@ -53,23 +54,30 @@ When contributing a new document, resource list, or category:
 | [Agent Tracing](./agent-tracing/README.md) | Tracing and observability resources for agent workflows. |
 | [Agent Optimization](./agent-optimization/README.md) | Frameworks and techniques for improving agent performance. |
 | [Agent Skill Optimizations](./agent-skill-optimizations/README.md) | Skill-level optimization methods and references. |
+| [Token Optimization](./token-optimization/README.md) | Prompt-compression and context-reduction techniques for lowering token cost. |
+| [Generative UI (GenUI)](./genui/README.md) | Frameworks and specs for agent- and model-generated interactive interfaces. |
 | [Prompt Engineering](./prompt-engineering/README.md) | Prompting tools, frameworks, and structured generation references. |
 
 ## Repository Map
 
 ```text
 awesome-tech/
-├── README.md                         # Root project guide and navigation
-├── standards/README.md               # Required repository standards
-├── llama-parse/README.md             # Required ingestion/indexing setup
-├── agent-harness/README.md           # Agent harness resources
-├── agent-isolation/README.md         # Agent isolation resources
-├── agent-evals/README.md             # Agent evaluation resources
-├── agent-tracing/README.md           # Agent tracing resources
-├── agent-optimization/README.md      # Agent optimization resources
-├── agent-skill-optimizations/README.md
-└── prompt-engineering/README.md      # Prompt engineering resources
+├── README.md                          # Root project guide and navigation
+├── AGENTS.md                          # Repo-wide awesome-index standards and enforcement
+├── standards/                         # Required repository standards
+├── llama-parse/                       # Required ingestion/indexing setup
+├── agent-harness/                     # Agent harness resources
+├── agent-isolation/                   # Agent isolation resources
+├── agent-evals/                       # Agent evaluation resources
+├── agent-tracing/                     # Agent tracing resources
+├── agent-optimization/                # Agent optimization resources
+├── agent-skill-optimizations/         # Agent skill optimization resources
+├── token-optimization/                # Token optimization resources
+├── genui/                             # Generative UI (GenUI) resources
+└── prompt-engineering/                # Prompt engineering resources
 ```
+
+Each category folder contains a `README.md` index and an `AGENTS.md` with folder-scoped standards.
 
 ## Contribution Checklist
 
@@ -78,5 +86,6 @@ Use this checklist before opening a pull request:
 - [ ] The root README links to any new category or top-level documentation.
 - [ ] The relevant category README includes the new resource or page.
 - [ ] The change follows LLM Wiki 2.0 and Open Knowledge formatting expectations.
+- [ ] The change follows the repository and folder-scoped `AGENTS.md` guidance.
 - [ ] Ingestion or indexing plans use LlamaParse Cloud Index v2.
 - [ ] The pull request explains standards compliance and any navigation changes.

@@ -1,6 +1,8 @@
 # Agent Skill Optimizations
 
-## Table of Contents
+A curated index of resources for improving reusable agent skills and capabilities.
 
-- SkillOpt
-- Gepa
+## Contents
+
+- SkillOpt - Skill optimization resource for improving reusable agent capabilities.
+- GEPA - Prompt or program optimization resource relevant to agent skill improvement.
