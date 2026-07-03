@@ -9,7 +9,8 @@
   },
   "scripts": {
     "konsistent": "konsistent",
-    "lint": "konsistent check"
+    "lint": "konsistent check",
+    "prepare": "node scripts/install-hooks.mjs"
   },
   "devDependencies": {
     "konsistent": "^1.0.0-beta.1"
