@@ -6,7 +6,7 @@ A curated index of frameworks, techniques, and evaluation tools for building ret
 
 - [LlamaParse Cloud Index v2 Setup](./llama-parse/README.md) - Required parsing and indexing setup for repository content.
 - [LangChain](https://github.com/langchain-ai/langchain) - Framework for building LLM applications and agents by composing retrievers, chains, and tool integrations.
-- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework connecting custom data sources to LLMs with indexing and retrieval primitives for RAG.
+- [LlamaIndex](./llamaindex.md) - Data framework connecting custom data sources to LLMs with indexing and retrieval primitives for RAG.
 - [Haystack](https://github.com/deepset-ai/haystack) - deepset's orchestration framework for building RAG pipelines, semantic search, and agents from modular components.
 - [Microsoft GraphRAG](https://github.com/microsoft/graphrag) - Graph-based RAG system that builds knowledge graphs from source text to support reasoning over complex datasets.
 - [RAGatouille](https://github.com/AnswerDotAI/RAGatouille) - Library for using and training late-interaction ColBERT retrieval models within RAG pipelines.

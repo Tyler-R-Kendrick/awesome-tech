@@ -8,6 +8,7 @@ Tools and file formats for generating, maintaining, and structuring agent- and L
 - [Open Knowledge Format (OKF)](./okf.md) - Google Cloud open specification for portable, agent- and human-friendly knowledge bundles.
 - [AGENTS.md](./agents-md.md) - Open format for the file that gives coding agents project context and instructions.
 - [design.md (DESIGN.md)](./design-md.md) - Google Labs format for describing a design system to coding agents.
+- [LangSmith Context Hub](./context-hub.md) - LangChain's versioned store for the AGENTS.md files, skills, and instructions that define agent behavior, promoted across staging and production.
 
 ## Related
 
