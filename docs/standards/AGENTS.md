@@ -2,11 +2,11 @@
 
 ## Scope
 
-These instructions apply to `standards/`.
+These instructions apply to `docs/standards/`.
 
 ## Focus area
 
-Maintain this folder as the awesome-index scope for repo-wide documentation policy, awesome-index conventions, and enforcement requirements.
+Maintain this folder as the awesome-index scope for repo-wide documentation policy, awesome-index conventions, enforcement requirements, and the agent and interoperability standards this project tracks (MCP, ACP, A2A, x402).
 
 ## Folder-specific guidance
 
@@ -17,14 +17,14 @@ Maintain this folder as the awesome-index scope for repo-wide documentation poli
 ## Required structure
 
 - `README.md` is the category index for this scope.
-- Start with `# Repository Standards` and a concise description of the scope.
+- Start with `# Standards` and a concise description of the scope.
 - Use `## Contents`, not `## Table of Contents`.
 - Keep entries grouped and consistently formatted.
 - Prefer `- [Name](URL) - Description.` for verified resources.
-- Preserve repo-wide requirements from the root `AGENTS.md` and `standards/README.md`.
+- Preserve repo-wide requirements from the root `AGENTS.md` and `docs/standards/README.md`.
 
 ## Enforcement
 
 - Run `git diff --check` after edits.
-- Run `rg "^## Table of Contents" standards README.md standards/README.md` before committing documentation changes.
+- Run `rg "^## Table of Contents" docs/standards docs/standards/README.md` before committing documentation changes.
 - Check that new entries are relevant to this folder's focus and are not better placed in a sibling category.

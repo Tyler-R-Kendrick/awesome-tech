@@ -2,7 +2,7 @@
 
 ## Scope
 
-These instructions apply to `genui/`.
+These instructions apply to `docs/genUI/`.
 
 ## Focus area
 
@@ -20,10 +20,10 @@ Maintain this folder as the awesome-index scope for generative UI: frameworks, S
 - Start with `# Generative UI (GenUI)` and a concise description of the scope.
 - Use `## Contents` or descriptive catalog sections (for example `## Core projects and specs`), never `## Table of Contents`.
 - Keep entries grouped and consistently formatted, whether as tables or `- [Name](URL) - Description.` bullets.
-- Preserve repo-wide requirements from the root `AGENTS.md` and `standards/README.md`.
+- Preserve repo-wide requirements from the root `AGENTS.md` and `docs/standards/README.md`.
 
 ## Enforcement
 
 - Run `git diff --check` after edits.
-- Run `rg "^## Table of Contents" genui README.md standards/README.md` before committing documentation changes.
+- Run `rg "^## Table of Contents" docs/genUI docs/standards/README.md` before committing documentation changes.
 - Check that new entries are relevant to this folder's focus and are not better placed in a sibling category.

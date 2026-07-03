@@ -2,7 +2,7 @@
 
 ## Scope
 
-These instructions apply to `prompt-engineering/`.
+These instructions apply to `docs/prompt-engineering/`.
 
 ## Focus area
 
@@ -21,10 +21,10 @@ Maintain this folder as the awesome-index scope for prompt programming, structur
 - Use `## Contents`, not `## Table of Contents`.
 - Keep entries grouped and consistently formatted.
 - Prefer `- [Name](URL) - Description.` for verified resources.
-- Preserve repo-wide requirements from the root `AGENTS.md` and `standards/README.md`.
+- Preserve repo-wide requirements from the root `AGENTS.md` and `docs/standards/README.md`.
 
 ## Enforcement
 
 - Run `git diff --check` after edits.
-- Run `rg "^## Table of Contents" prompt-engineering README.md standards/README.md` before committing documentation changes.
+- Run `rg "^## Table of Contents" docs/prompt-engineering docs/standards/README.md` before committing documentation changes.
 - Check that new entries are relevant to this folder's focus and are not better placed in a sibling category.
