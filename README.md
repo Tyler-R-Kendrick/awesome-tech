@@ -58,6 +58,12 @@ When contributing a new document, resource list, or category:
 awesome-tech/
 ├── README.md                              # Root project guide and navigation
 ├── AGENTS.md                              # Repo-wide awesome-index standards and enforcement
+├── package.json                           # Bun manifest: Konsistent dev dependency and scripts
+├── bun.lock                               # Bun lockfile pinning the toolchain
+├── konsistent.json                        # Konsistent structural-convention rules for docs/
+├── .github/
+│   └── workflows/
+│       └── konsistent.yml                 # CI: enforce structural conventions on every PR
 └── docs/                                  # Curated knowledge index
     ├── README.md                          # Documentation index
     ├── agents/                            # Agent capabilities

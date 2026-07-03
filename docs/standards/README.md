@@ -32,6 +32,7 @@ All repository documents **must** follow:
 - Pull requests should describe how changes satisfy both standards.
 - Category folders must keep a `README.md` that acts as a curated contents index.
 - Every folder scope should include an `AGENTS.md` file with standards and focus-area guidance.
+- The `README.md` and `AGENTS.md` folder-structure rules above are enforced automatically by [Konsistent](https://www.npmjs.com/package/konsistent), a structural-convention linter configured in [`konsistent.json`](../../konsistent.json). Run `bun run konsistent` locally; continuous integration runs it on every pull request.
 - Run `git diff --check` and `rg "^## Table of Contents"` before committing documentation changes.
 
 ## Indexing Requirement
