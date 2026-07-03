@@ -26,7 +26,7 @@ Extracted standards from established awesome repositories and tooling:
 - Preserve the repository's required knowledge formats: LLM Wiki 2.0 and Open Knowledge format.
 - Category folders must keep a `README.md` that acts as the category index.
 - Root `README.md` is the repository-wide index and links to each category folder.
-- The `standards/README.md` file is the canonical repo policy page; update it when changing standards or enforcement expectations.
+- The `docs/standards/README.md` file is the canonical repo policy page; update it when changing standards or enforcement expectations.
 - LlamaParse Cloud Index v2 is the required ingestion/indexing path for repository document parsing.
 
 ## Standard enforcement
@@ -35,7 +35,7 @@ Before committing documentation changes:
 
 1. Check for `## Table of Contents` and replace it with `## Contents` unless the text is discussing the phrase itself.
 2. Confirm every touched Markdown index has a clear title, description, `## Contents`, and consistent bullets.
-3. Confirm category README files link back to relevant repo standards when useful and do not contradict `standards/README.md`.
+3. Confirm category README files link back to relevant repo standards when useful and do not contradict `docs/standards/README.md`.
 4. Run `git diff --check` to catch whitespace issues.
 5. Use `rg "^## Table of Contents"` to ensure old awesome-list heading style was not reintroduced.
 
