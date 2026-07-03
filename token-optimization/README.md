@@ -1,6 +1,6 @@
 # Token Optimization
 
-## Table of Contents
+## Contents
 
 - Ponytail
 - Caveman
