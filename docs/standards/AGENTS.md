@@ -6,7 +6,7 @@ These instructions apply to `docs/standards/`.
 
 ## Focus area
 
-Maintain this folder as the awesome-index scope for repo-wide documentation policy, awesome-index conventions, enforcement requirements, and the agent and interoperability standards this project tracks (MCP, ACP, A2A, x402).
+Maintain this folder as the awesome-index scope for repo-wide documentation policy, awesome-index conventions, enforcement requirements, and the agent interoperability, communication, payment, and commerce protocols this project tracks (for example MCP, ACP, A2A, ARD, A2H, x402, AP2, UCP). Group these protocols under broad sections (communication and interoperability; payments and commerce) so new entries accumulate over time.
 
 ## Folder-specific guidance
 

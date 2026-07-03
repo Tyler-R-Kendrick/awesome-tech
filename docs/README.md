@@ -7,4 +7,5 @@ Curated knowledge index for agentic AI tooling, practices, and infrastructure. E
 - [Agents](./agents/README.md) - Agent capabilities: harnesses, sandboxes, optimization, skills, memory, tracing, and evals.
 - [Prompt Engineering](./prompt-engineering/README.md) - Prompt programming, RAG, context engineering, and token optimization.
 - [Generative UI (GenUI)](./genUI/README.md) - Frameworks and specs for agent- and model-generated interfaces.
-- [Standards](./standards/README.md) - Repository documentation standards and tracked interoperability protocols (MCP, ACP, A2A, x402).
+- [Documentation](./documentation/README.md) - Tooling and formats for agent- and LLM-facing documentation, knowledge, and design context.
+- [Standards](./standards/README.md) - Repository documentation standards and tracked interoperability, payment, and commerce protocols (MCP, A2A, ARD, A2H, x402, AP2, UCP).
