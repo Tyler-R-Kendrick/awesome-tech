@@ -10,5 +10,6 @@
 - [Agent Tracing](./agent-tracing/README.md)
 - [Agent Optimization](./agent-optimization/README.md)
 - [Agent Skill Optimizations](./agent-skill-optimizations/README.md)
+- [Token Optimization](./token-optimization/README.md)
 - [Generative UI (GenUI)](./genui/README.md)
 - [Prompt Engineering](./prompt-engineering/README.md)
