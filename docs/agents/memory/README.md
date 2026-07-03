@@ -4,7 +4,7 @@ A curated index of frameworks and services that give AI agents persistent, long-
 
 ## Contents
 
-- [Mem0](https://github.com/mem0ai/mem0) - Universal memory layer that adds persistent, personalized long-term memory to agents across vector, key-value, and graph stores.
+- [Mem0](./mem0.md) - Universal memory layer that adds persistent, personalized long-term memory to agents across vector, key-value, and graph stores.
 - [Letta (formerly MemGPT)](https://github.com/letta-ai/letta) - Framework for building stateful agents with self-editing long-term memory and tiered context management.
 - [Zep](https://github.com/getzep/zep) - Memory service that builds a temporal knowledge graph from conversations and documents for cross-session context.
 - [Graphiti](https://github.com/getzep/graphiti) - Framework for building real-time, temporally-aware knowledge graphs that serve as evolving agent memory.
