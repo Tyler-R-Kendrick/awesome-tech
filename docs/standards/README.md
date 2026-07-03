@@ -9,6 +9,7 @@ Standards that govern this repository's documentation, and the agent and interop
 - [Enforcement](#enforcement) - Checks and expectations for repository changes.
 - [Indexing Requirement](#indexing-requirement) - Required parsing and indexing workflow.
 - [Communication and Interoperability](#communication-and-interoperability) - Agent discovery, communication, and coordination protocols.
+- [Developer Tooling and Interoperability](#developer-tooling-and-interoperability) - Editor and IDE interoperability with language and debugging backends.
 - [Payments and Commerce](#payments-and-commerce) - Agent payment and commerce protocols.
 
 ## Required Standards
@@ -53,6 +54,12 @@ Open standards for agent discovery, communication, and coordination that this re
 - [Agent2Agent Protocol (A2A)](./a2a.md) - Standard for cross-framework agent discovery and coordination.
 - [Agentic Resource Discovery (ARD)](./ard.md) - Runtime discovery layer for finding tools, skills, and agents across federated registries.
 - [Agent-to-Human Protocol (A2H)](./a2h.md) - Twilio protocol for channel-agnostic, auditable agent-to-human communication.
+
+## Developer Tooling and Interoperability
+
+Open standards that let editors and IDEs interoperate with language and debugging backends across tools and vendors:
+
+- [Debug Adapter Protocol (DAP)](./dap.md) - Microsoft standard for communication between development tools and debuggers via reusable debug adapters.
 
 ## Payments and Commerce
 
